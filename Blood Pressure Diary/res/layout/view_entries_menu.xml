@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:id="@+id/textView1"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:text="@string/view_entries_view_title"
+		android:layout_marginBottom="20dp"></TextView>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginBottom="10dp" android:layout_weight="0.03">
+		<ImageView android:src="@drawable/list"
+			android:layout_height="50dp" android:id="@+id/imageView1"
+			android:layout_width="50dp" android:scaleType="fitXY"></ImageView>
+		<Button android:layout_height="50dp" android:text="@string/view_list_menu_item"
+			android:id="@+id/btnViewEntriesAsList" android:layout_width="fill_parent"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<ImageView android:src="@drawable/linechart" android:id="@+id/imageView2"
+			android:layout_width="50dp" android:layout_height="50dp"
+			android:scaleType="fitXY"></ImageView>
+		<Button android:layout_height="50dp" android:text="@string/view_graph_menu_item"
+			android:id="@+id/btnViewEntriesAsGraph" android:layout_width="fill_parent"></Button>
+	</LinearLayout>
+
+</LinearLayout>

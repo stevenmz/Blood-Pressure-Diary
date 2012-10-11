@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.stevenmz.BloodPressureDiary"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="4" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/heartcomputer">
+        <activity android:name=".BloodPressureDiaryActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="HelpAboutActivity"></activity>
+        <activity android:name="MainMenuActivity"></activity>
+        <activity android:name="AddNewBpEntryActivity"></activity>
+        <activity android:name="ViewEntriesMenuActivity"></activity>
+        <activity android:name="ViewEntriesListActivity"></activity>
+        <activity android:name="BpInformationActivity"></activity>
+        <activity android:name="ViewEntriesGraphedActivity"></activity>
+
+    </application>
+</manifest>

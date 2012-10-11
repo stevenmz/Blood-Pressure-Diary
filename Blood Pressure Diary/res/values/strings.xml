@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, BloodPressureDiaryActivity!</string>
+	<string name="app_name">Blood Pressure Diary</string>
+	<string name="main_title">Blood Pressure Diary</string>
+	<string name="enter_reading_menu_item">Enter New Reading</string>
+	<string name="view_readings_menu_item">View Readings</string>
+	<string name="options_menu_item">Options</string>
+	<string name="help_about_menu_item">Help / About</string>
+	<string name="add_new_entry_title">Add New Entry</string>
+	<string name="systolic_label">Systolic</string>
+	<string name="diastolic_label">Diastolic</string>
+	<string name="heart_rate_label">Heart Rate</string>
+	<string name="reading_time_label">Date/Time of Reading:</string>
+	<string name="view_readings_menu_header">View Readings</string>
+	<string name="view_list_menu_item">View List</string>
+	<string name="view_graph_menu_item">View Graph</string>
+	<string name="view_graph_view_title">Entries Graphed</string>
+	<string name="view_entries_view_title">Entries List</string>
+	<string name="date_to_label">To</string>
+	<string name="help_menu_title">Help / About</string>
+	<string name="help_how_to_use">How To Use</string>
+	<string name="help_what_readings_mean">Blood Pressure Information</string>
+	<string name="help_see_more_info">For More Information, see:</string>
+	<string name="date_label">Date of Reading:</string>
+	<string name="add_entry_button">Add Entry</string>
+	<string name="DatabaseName">BpdApplicationData</string>
+	<string name="BpDatabaseEntriesTableName">BpdApplicationData</string>
+	<string name="date_time_button">Change</string>
+	<string name="time_of_reading">Time of Reading:</string>
+	<string name="bp_saving_entry">Saving entry...</string>
+	<string name="bp_entry_saved">Entry saved!</string>
+	<string name="bp_entry_error">Error occurred while saving entry.</string>
+	<string name="forward_slash">/</string>
+	<string name="bpNormal">Normal</string>
+	<string name="bpPreHyper">Pre-Hypertension</string>
+	<string name="bpHigh1">High 1</string>
+	<string name="bpHigh2">High 2</string>
+	<string name="bpNormalSys">less than 120</string>
+	<string name="bpPreSys">120-139</string>
+	<string name="bpHighSys">140-159</string>
+	<string name="bpHighSys2">160+</string>
+	<string name="bpNormalCondition">and</string>
+	<string name="bpPreCondition">or</string>
+	<string name="bpHighCondition">or</string>
+	<string name="bpHighCondition2">or</string>
+	<string name="bpNormalDia">less than 80</string>
+	<string name="bpPreDia">80-89</string>
+	<string name="bpHighDia">90-99</string>
+	<string name="bpHighDia2">100+</string>
+	<string name="bpMoreInformationLink">http://www.mayoclinic.com/health/high-blood-pressure/DS00100/DSECTION=tests-and-diagnosis</string>
+</resources>

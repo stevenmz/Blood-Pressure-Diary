@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout android:layout_height="wrap_content"
+		android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/bpNormal"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/bpNormalSys"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/bpNormalCondition"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/bpNormalDia"></TextView>
+
+		</TableRow>
+		<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/bpPreHyper"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/bpPreSys"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/bpPreCondition"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/bpPreDia"></TextView>
+
+		</TableRow>
+		<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/bpHigh1"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/bpHighSys"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/bpHighCondition"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/bpHighDia"></TextView>
+
+		</TableRow>
+		<TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/bpHigh2"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView2" android:layout_height="wrap_content" android:text="@string/bpHighSys2"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView3" android:layout_height="wrap_content" android:text="@string/bpHighCondition2"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:id="@+id/textView4" android:layout_height="wrap_content" android:text="@string/bpHighDia2"></TextView>
+
+		</TableRow>
+	</TableLayout>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:id="@+id/txtHelpSeeMore"></TextView>
+</LinearLayout>

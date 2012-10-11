@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_marginBottom="20dp" android:layout_height="wrap_content"
+		android:id="@+id/textView1" android:layout_width="fill_parent"
+		android:gravity="center" android:text="@string/add_new_entry_title"></TextView>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginBottom="10dp">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content" android:id="@+id/textView2"
+			android:layout_width="wrap_content" android:text="@string/systolic_label"></TextView>
+		<EditText android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:inputType="number"
+			android:digits="0123456789" android:numeric="integer"
+			android:maxLength="3" android:id="@+id/txtSystolic">
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginBottom="10dp">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content" android:id="@+id/textView3"
+			android:layout_width="wrap_content" android:text="@string/diastolic_label"></TextView>
+		<EditText android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:inputType="number"
+			android:digits="0123456789" android:numeric="integer"
+			android:maxLength="3" android:id="@+id/txtDiastolic">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginBottom="10dp">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content" android:id="@+id/textView4"
+			android:layout_width="wrap_content" android:text="@string/heart_rate_label"></TextView>
+		<EditText android:layout_weight="1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:inputType="number"
+			android:numeric="integer" android:digits="0123456789"
+			android:maxLength="3" android:id="@+id/txtHeartRate">
+
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginBottom="10dp"
+		android:orientation="horizontal">
+		<TextView android:layout_height="wrap_content" android:id="@+id/textView5"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/date_label"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtEntryDate"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/date_time_button"
+			android:id="@+id/btnChangeEntryDate"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_marginBottom="10dp">
+		<TextView android:layout_height="wrap_content" android:id="@+id/textView6"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/time_of_reading"></TextView>
+		<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/txtEntryTime"></TextView>
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/date_time_button"
+			android:id="@+id/btnChangeEntryTime"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout5"
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginBottom="10dp">
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/btnAddEntry"
+			android:text="@string/add_entry_button"></Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content" android:id="@+id/txtStatus" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="fill_parent" android:gravity="center"></TextView>
+
+</LinearLayout>

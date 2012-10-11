@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:id="@+id/textView1"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:layout_marginBottom="20dp" android:text="@string/view_graph_view_title"></TextView>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_marginBottom="10dp"></LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginBottom="10dp">
+		<CheckBox android:text="@string/systolic_label" android:id="@+id/chkbxShowSystolic"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></CheckBox>
+		<CheckBox android:text="@string/diastolic_label" android:id="@+id/chkbxShowDiastolic"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></CheckBox>
+		<CheckBox android:text="@string/heart_rate_label" android:checked="True" android:id="@+id/chkbxShowHeartRate"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></CheckBox>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginBottom="10dp"
+		android:id="@+id/llForGraph"></LinearLayout>
+
+
+</LinearLayout>

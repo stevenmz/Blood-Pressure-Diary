@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="fill_parent"
+	android:id="@+id/linearLayout1" android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent" android:gravity="left"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_height="wrap_content"
+			android:layout_marginRight="15dp" android:id="@+id/txtEntryListDate"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Date"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtEntryListSystolic"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Sys"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtEntryListSlash"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="@string/forward_slash"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtEntryListDiastolic"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Dia" android:layout_marginRight="15dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtEntryListHeartRate"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="hrtrte"></TextView>
+
+
+	</LinearLayout>
+	<View android:layout_width="fill_parent" android:layout_height="5dp"
+		android:background="#CC1100" />
+</LinearLayout>
+
